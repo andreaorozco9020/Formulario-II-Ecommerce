@@ -996,12 +996,13 @@ bottom: 215px;
          
     .boto-mas{
         position: fixed;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         background-color: #00669F;
         border-radius: 50%;
         left: 80%;
-        bottom: 540px;
+        top: 450px;
+        
         
     }
 
@@ -1012,7 +1013,6 @@ bottom: 215px;
         text-align: center;
         text-decoration: none;
         color:white;
-        margin-left: -140px;
-        margin-top: 10px;
+        margin-left: -118px;
         z-index: 13;
     }
