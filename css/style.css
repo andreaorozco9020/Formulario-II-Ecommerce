@@ -613,7 +613,7 @@ text-align: justify;
 
 }
 .rocket{
-    position: relative;
+position: relative;
     background-image: url(../img/bazooka.png);
     width: 45.67px;
     height: 52px;
