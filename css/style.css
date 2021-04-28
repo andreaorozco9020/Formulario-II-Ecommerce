@@ -1,0 +1,1018 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:ital@1&family=Roboto&display=swap');
+
+*{
+margin: 0%;
+padding: 0;
+box-sizing: border-box; 
+ 
+ 
+}
+
+body{
+width: 100%;
+height: 936px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.descuento {
+height: 23px;
+left: 0px;
+top: 0px;
+background: #1CD1B0;
+}
+
+.texto-descuento{
+ margin-left: 20px;
+font-size: 15px;
+line-height: 0px;
+font-family: 'Roboto', sans-serif;
+color: #000000;
+text-align: justify;
+padding: 10px;
+}
+
+.tienda{
+height: 80px;
+left: 0px;
+top: 23px;
+background: #00669F;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+position: sticky;
+}
+
+img{
+margin-left: 20px;
+}
+
+.nombre-tienda{
+position: absolute;
+width: 406px;
+height: 35px;
+left: 68.45px;
+top: 10px;  
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+label{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+line-height: 72px;
+}
+
+.formulario {
+position: relative;
+width: 620px;
+height: 500px;
+top: 210px;
+margin-left: auto;
+margin-right: auto;
+   
+}
+
+input{
+width: 100%;
+line-height: 60px;
+margin-top: 20px;
+background: #FFFFFF;
+border: 1.53407px solid #000000;
+box-sizing: border-box;
+}
+
+.boton{
+Width :100%;
+Height :53.79px;
+background: #1CD1B0;
+border-radius: 23.011px;
+border-color: transparent;
+font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 44px;
+top: 59px;;
+
+}
+
+.no-tiene-cuenta{
+color: #00669F;
+font-family: 'Karla', sans-serif;
+font-size: 21.48px;
+line-height: 27.42px;
+
+}
+.no-tiene-cuenta1{
+color: #000000;
+position: relative;
+width: 120px;
+left: 420px;
+bottom: 86px;
+font-family: 'Karla', sans-serif;
+font-size: 21.48px;
+border-color: white;    
+    
+}
+
+.enviar{
+ margin-top: 59px;
+}
+
+p{
+text-align: center;
+padding: 20.21px;
+color: #00669F;
+
+}
+
+a{
+text-decoration: none;
+color: #000000;
+
+}
+
+footer{
+position: relative;
+width: 100; 
+Height :80px;
+Top :365px;
+background-color: #00669F;
+}
+
+.pie{
+width: 100%;
+text-align: center;
+padding: 20px;
+} 
+
+h3{
+color: #FFFFFF;
+font-size: 16px;
+line-height: 19px ;
+font-weight: lighter;
+line-height: 19px;
+font-family: 'Roboto', sans-serif;
+}
+
+select{
+width: 100%;
+Height :63.79px;
+}
+
+.selector{
+position: relative;
+width: 100%;
+bottom: 40px;
+background: #FFFFFF;
+box-sizing: border-box;
+}
+
+.boton1{
+width: 300px;
+background:#888888;
+border-radius: 23.011px;
+border-color: transparent;
+font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 44px;
+top: 59px;
+color: #FFFFFF;
+}
+
+.boton2{
+width: 300px;
+background: #1CD1B0;
+border-radius: 23.011px;
+border-color: transparent;
+font-family: 'Karla', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 44px;
+top: 59px;
+}
+
+textarea{
+width: 100%;
+height: 251px;
+}
+
+/* aqui es el css de supermcard*/
+.container{
+position: absolute;
+width: 20%;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 30px 30px 0px 0px ;
+top: 250px;
+left: 33.33%;
+ 
+  
+}
+
+.fondo-batman{
+position: relative;
+background-image: url(../img/bg-batman.jpg);
+width: 300px;
+height: 193px;
+background-size: cover;
+border-radius: 30px 30px 0px 0px;
+
+}
+
+.fondo-mujer{
+position: relative;
+background-image: url(../img/1.png);
+width: 300px;
+height: 193px;
+background-size: cover;
+border-radius: 30px 30px 0px 0px;
+
+}
+.fondo-batman3{
+position: relative;
+background-image: url(../img/bg-batman.jpg);
+width: 300px;
+height: 193px;
+background-size: cover;
+border-radius: 30px 30px 0px 0px;
+
+}
+.fas{
+    color: red;
+    font-size: 55px;
+    padding: 25px;
+}
+
+.foto-batman{
+background-image: url(../img/batman.jpg);
+width: 120px;
+height: 118px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+bottom: 90px;
+z-index: 3;
+}
+
+
+.foto-mujer1{
+background-image: url(../img/2.png);
+width: 120px;
+height: 118px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+position: relative;margin-left: auto;
+margin-right: auto;
+bottom: 90px;
+z-index: 3;
+  }
+
+  .foto-batman3{
+background-image: url(../img/batman.jpg);
+width: 120px;
+height: 118px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+position: relative;
+margin-left: auto;
+margin-right: auto;
+bottom: 90px;
+z-index: 3;
+  }
+
+
+
+
+
+.texto{
+position: relative;
+bottom: 80px;
+background: #F3F3F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 15px;
+line-height: 35px;
+padding: 40px;
+text-align: justify;
+    
+}
+
+
+.texto-mujer{
+    position: relative;
+    bottom: 80px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    line-height: 35px;
+    padding: 40px;
+    text-align: justify;
+        
+    }
+    
+
+.text, h2 {
+    text-align: center;
+    font-size: 26px;
+     
+}
+
+
+button{
+    width: 33.33%;
+    height: 50px;
+    background-color:#00669F; 
+    color: white;
+    margin-left: 33.33%;
+    font-size: 20px;
+   
+}
+ 
+
+/*aqui inicia mujer maravilla*/
+.container1{
+    position: absolute;
+    width: 20%;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 30px 0px 0px ;
+    top: 250px;
+    margin-left: 60%;   
+  
+}
+
+/*------------aqui inicia super man--------------*/
+
+.container2{
+    position: absolute;
+    width: 20%;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px 30px 0px 0px ;
+    top: 250px;
+    
+   
+  
+}
+
+/*este es el boton fixed*/
+.fa-plus-circle{
+    color: #00669F;
+    font-size: 80px;
+    position: fixed;
+}
+.boton-azul{
+    margin-left: 83.33%;
+   
+}
+
+.fondo-pie{
+    position: relative;
+    width: 100%;
+    background-color: #00669F;
+   top: 1100px;
+   Height :61px;
+   text-align: center;
+   padding: 25px;
+}
+ /*parte de los super heores */
+
+ .navegacion{
+     width: 100%;
+     height: 40px;
+     background-color: #001D2D;
+     
+ }
+ a{
+    position: relative;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    left: 68%;
+    padding: 10px ;
+    top: 10px;
+    
+ }
+ .principal-contenedor{
+     position: relative;
+     width: 968px;
+     height: 580px;
+     top: 135px;
+    
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+.caja1{
+    position: relative;
+    width: 300px;
+    height: 529px;
+    background-color:#F3F3F3;
+    display: inline-block;    
+    border-radius: 30px 30px 0px 0px; 
+    
+   
+  
+}
+
+.caja2{
+    position: relative;
+    width: 300px;
+    height: 529px;
+    background-color:#F3F3F3;
+    display: inline-block;    
+    border-radius: 30px 30px 0px 0px;
+    left: 30px;
+    
+}
+
+.caja3{
+    position: relative;
+    width: 300px;
+    height: 529px;
+    background-color:#F3F3F3;
+    display: inline-block;    
+    border-radius: 30px 30px 0px 0px;
+    left: 60px;
+    
+    
+}
+.texto{ 
+position: relative;
+font-family: 'Roboto', sans-serif;
+top: -95px;
+width: 100%;
+
+}
+
+
+.negro{
+color: black;
+text-align: left;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+font-family: 'Roboto', sans-serif;
+text-align: justify;
+    
+}
+
+button{
+width: 128.78px;
+height: 48.52px;
+text-align: center;
+margin-left: 45px;
+
+
+}
+
+
+.fa-heart{
+    font-size: 35px;
+    color:  #CC2424;
+}
+/*pagina super heroes*/
+
+.fondo-colores{
+    background-image: url(../img/1.png);
+    width: 100%;
+    height: 820px;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.nombre-harley{
+    position: relative;
+    width: 406px;
+    height: 35px;
+    top: 30px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #FFFFFF
+}
+
+.caja-blanca {
+    position: relative;
+    width: 546px;
+    height: 446px;
+    background-color:white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 215px;
+    border-radius: 45px ;
+}
+
+.foto-chica{
+    position: relative;
+    background-image: url(../img/2.png);
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    left: 33.33%;
+   z-index: 6;
+    bottom: 80px;
+}
+
+.blanco{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 20px;
+color: #000000;
+text-align: justify;
+}
+.azul{
+    color: #2C0187;
+}
+.azules{
+    color: #2C0187;
+    text-decoration: underline;
+}
+
+.morado{
+    position: relative;
+    width: 100%;
+    height: 87px;
+    background-color: #2C0187;
+    bottom: 40px;
+    z-index: 10;
+    border-radius: 0px 0px 45px 45px; 
+    
+    
+}
+.volver {
+    position: relative;
+   width: 44%;
+   top: 25px
+
+}
+.volver , a{
+    font-size: 23px;
+    line-height: 23px;
+}
+
+.corazon{
+    position: relative;
+    width: 40px;
+    height: 35px;
+    background-image: url(../img/corazon.png);
+    bottom: 25px;
+    left: 30px;
+}
+
+.bate{
+   position: relative;
+    background-image: url(../img/bate.png);
+    width: 45.67px;
+    height: 52px;
+    background-size: cover;
+  background-position: center;
+  bottom: 180px;
+  z-index: 12;
+  left: 23.33%;
+
+}
+
+.pistola{
+    position: relative;
+    background-image: url(../img/pistola.png);
+    width: 45.67px;
+    height: 52px;
+    background-size: cover;
+  background-position: center;
+  bottom: 235px;
+  z-index: 12;
+  left: 41%;
+
+}
+.rocket{
+    position: relative;
+    background-image: url(../img/bazooka.png);
+    width: 45.67px;
+    height: 52px;
+    background-size: cover;
+  background-position: center;
+  bottom: 290px;
+  z-index: 12;
+  left: 57%;
+    
+}
+
+.textos{
+    position: relative;
+    bottom: 80px;
+    background: white;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: justify;
+        
+    }
+    .final{
+        position: relative;
+        width: 100; 
+       Height :61px;
+       background-color: #00669F;
+       padding: 20px;
+    }
+
+    h3{
+        text-align: center;
+        line-height: 50px;
+    }
+ .text-locos{
+     color: black;
+     text-align: justify;
+     line-height: 0px;
+     font-size: 15px;
+     font-family:'Roboto', sans-serif;
+
+
+ }
+
+ .locos{
+    background: #1CD1B0;
+    height: 26px;
+   
+ }
+ 
+ /*--------------------------------FORMULARIO 2---------------------------*/
+
+ .formulario2{
+     position: relative;
+     width: 954px;
+     height: 832px;
+     background-color: #00669F;
+     box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+border-radius: 49.0901px;
+     top: 184px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .añadi{
+     width: 300px;
+     height: 72px;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+.añadi, h1{
+color: white;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 72px;
+}
+
+.titulo-harler-quinn{
+position: relative;
+color: white;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-size: 60px;
+line-height: 72px;
+padding-right: 20px;
+
+
+
+}
+
+.agrega{
+    position: relative;
+    height: 34px;
+    bottom: 14px;
+   
+}
+
+.agrega, p{
+color: white;
+font-family:'Inter', sans-serif;
+font-style: normal;
+font-size: 15px;
+line-height: 0px;
+
+}
+
+
+
+.input-nombre{
+position: relative;
+width: 343px;
+height: 63px;
+left: 123px;
+background: #FFFFFF;
+border: 1.53407px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+border-radius: 15.3407px;
+display: inline-block;
+
+}
+.text-nombre{
+position: relative;
+width: 85px;
+height: 24px;
+left: 123px;
+font-family:'Inter', sans-serif;
+color: white;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+top: 10px;
+   
+}
+
+
+.select-especie{
+position: relative;
+width: 343px;
+height: 63px;
+left: 500px;
+bottom: 83px;
+background: #FFFFFF;
+border: 1.53407px solid rgba(0, 0, 0, 0.1);
+box-sizing: border-box;
+border-radius: 15.3407px;
+display: inline-block;
+}
+
+.text-especie{
+position: relative;
+width: 85px;
+height: 24px;
+left: 145px;
+font-family:'Inter', sans-serif;
+color: white;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+bottom: 52px;
+
+   
+}
+
+.input-fecha{
+    position: relative;
+    width: 343px;
+    height: 63px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+    right: 220px;
+    top: 45px;
+    
+    }
+
+   .input-archivos1{
+    position: relative;
+    width: 343px;
+    height: 63px;
+    background: transparent;
+    border-radius: 5px;
+    left: 500px;
+    display: inline-block;
+    bottom: 40px;
+    border-color: transparent;
+
+  
+   }
+
+   
+
+   .textarea-descripcion{
+    position: relative;
+    width: 343px; 
+    height: 307px;
+    left: 123px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+   
+   }
+
+.poderes{
+    font-family:'Inter', sans-serif;
+    position: relative;
+    color: white;
+    left: 153px;
+    font-size: 20px;
+    bottom: 298px;  
+   
+   
+}
+
+.votar{
+position: relative;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+width: 24px;
+height: 20px;
+left: 30px;
+bottom: 255px;
+}
+
+.text-votar{
+    font-family: 'Karla', sans-serif;;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    left: 103px;
+    bottom: 258px;
+    font-weight: 100;
+}
+
+.super-inteligencia{
+position: relative;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+box-sizing: border-box;
+width: 24px;
+height: 20px;
+right: 117px;
+bottom: 215px;
+
+}
+.text-super-inteligencia{
+    font-family: 'Karla', sans-serif;;
+    position: relative;
+    color: white;
+    font-size: 16px;
+    left: 35px;
+    bottom: 219px;
+    font-weight: 100;
+    
+}
+.vista-rayo-laser{
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    width: 24px;
+    height: 20px;
+    right: 270px;
+    bottom: 178px;
+    
+    }
+
+    .text-vista-rayo-laser{
+        font-family: 'Karla', sans-serif;;
+        position: relative;
+        color: white;
+        font-size: 16px;
+        right: 113px;
+        bottom: 180px;
+        font-weight: 100;
+    }
+    .billetera-gorda{
+        position: relative;
+        background: #FFFFFF;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+        width: 24px;
+        height: 20px;
+        right: 398px;
+        bottom: 135px;
+        
+        }
+
+        .text-billetera-gorda{
+
+        font-family: 'Karla', sans-serif;;
+        position: relative;
+        color: white;
+        font-size: 16px;
+        right: 266px;
+        bottom: 138px;
+        font-weight: 100;
+        }
+
+        .hr{
+            position: relative;
+            background-image: url(../img/hr.png);
+            width: 343px;
+            border: 1px solid #CCCCCC;
+            left:   506px;
+            bottom: 140px;  
+            
+        }
+
+        .text-tipo-persona{
+            position: relative;
+            font-family:'Inter', sans-serif;
+            position: relative;
+            color: white;
+            font-size: 20px;
+            bottom: 155px;
+            left:506px;
+            font-weight: 100;
+        }
+
+        .heroe-heroina{
+            position: relative;
+            width: 20px;
+            height: 20px;
+            left: 270px;
+            bottom: 115px;
+
+
+        }
+
+        .villano-villana{
+            position: relative;
+            width: 20px;
+            height: 20px;
+            left: 140px;
+            bottom: 80px;
+
+        }
+
+        .text-heroe-heroina{
+            font-family: 'Karla', sans-serif;;
+            position: relative;
+            color: white;
+            font-size: 16px;
+            left: 403px;
+            bottom: 118px;
+            font-weight: 100;
+
+        }
+
+        .text-villano-villana{
+            font-family: 'Karla', sans-serif;
+            position: relative;
+            color: white;
+            font-size: 16px;
+            left: 272px;
+            bottom: 85px;
+            font-weight: 100;
+        }
+
+        .boton-añadirr{
+            position: relative;
+            width: 466px;
+            height: 87px;
+            background: #1CD1B0;
+            border-radius: 23.011px;
+           top: 5px;
+           right: 180px;
+           color: black;
+           font-size: 40px;
+           line-height: 44px;
+           font-family: 'Inter', sans-serif;
+           border-color: #1CD1B0;
+           
+        }
+
+         
+    .boto-mas{
+        position: fixed;
+        width: 100px;
+        height: 100px;
+        background-color: #00669F;
+       border-radius: 50%;
+        left: 80%;
+        bottom: 540px;
+        
+    }
+
+    .boto-mas a {
+        display: block;
+        font-family: 'Karla', sans-serif;
+        font-size: 100px;
+        text-align: center;
+        text-decoration: none;
+        color:white;
+        margin-left: -140px;
+        margin-top: 10px;
+        z-index: 13;
+    }
